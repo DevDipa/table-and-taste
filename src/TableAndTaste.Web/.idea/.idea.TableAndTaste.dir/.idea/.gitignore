@@ -1,15 +1,72 @@
-﻿# Default ignored files
-/shelf/
-/workspace.xml
-# Rider ignored files
-/modules.xml
-/projectSettingsUpdater.xml
-/contentModel.xml
-/.idea.TableAndTaste.iml
-# Ignored default folder with query files
-/queries/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-# Editor-based HTTP Client requests
-/httpRequests/
+﻿# ==========================================
+# IDE: JetBrains Rider
+# ==========================================
+.idea/
+
+# ==========================================
+# IDE: Visual Studio
+# ==========================================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# .NET Build Output
+# ==========================================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+TestResults/
+
+# ==========================================
+# NuGet
+# ==========================================
+*.nupkg
+*.snupkg
+.nuget/
+
+# ==========================================
+# Environment Variables and Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Local.json
+
+# ==========================================
+# Logs and Temporary Files
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# ==========================================
+# Node.js (if introduced later)
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Generated Frontend Files
+# ==========================================
+dist/
+build/
+coverage/
